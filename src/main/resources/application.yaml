@@ -1,0 +1,12 @@
+curator:
+  retryCount: 5
+  elapsedTimeMs: 5000
+  connectString: 192.168.0.99:2181
+  sessionTimeoutMs: 6000
+  connectionTimeoutMs: 5000
+server:
+  port: 8888
+spring:
+  application:
+    name: zookeeper
+
